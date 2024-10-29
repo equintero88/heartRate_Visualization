@@ -353,7 +353,7 @@ function connect() {
 
 The modelsWS component is a p5.js application that allows users to choose different visualization modes for displaying the heart rate data in Cables.gl. This component connects to a WebSocket server on ws://localhost:3000 and sends a value based on clicked square. This identifier is broadcast Cables.gl, which adjusts its display accordingly.
 
-![image](https://github.com/user-attachments/assets/5592a3f7-c351-4ead-b418-d0d10a5083e2)
+![basicStructure](./images/select.png)
 
 The WebSocket server is set up in server.js to listen on ws://localhost:3000 and handle incoming messages from the modelsWS component. Then, you also need to, inside `modelsWS` folder write in console: 
 
