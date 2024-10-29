@@ -14,15 +14,19 @@ This project enables an interactive visualization of heart rate data transmitted
 To run this project, you need to install the following dependencies and meet these requirements:
 
 1. **Install Node.js**
-This project requires Node.js (which includes npm) for running the WebSocket server. Node.js should be installed on your system. You can check if Node.js is installed by running in your terminal:
+This project requires Node.js (which includes npm) for running the WebSocket server. You can check if Node.js is installed by running in your terminal:
 ```
 node -v
 ```
+If you don't have Node.js in your system you can download it [here](https://nodejs.org/en/download/package-manager).
+After downloading it, install *ws* Library:
+
 2. **ws Library for Node.js**
 
 ```
 npm install ws
 ```
+
 3. **LiveServer plugin for Visual Studio Code**
 ![liveServer](./images/liveServer.png)
 
