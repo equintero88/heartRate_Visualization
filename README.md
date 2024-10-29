@@ -7,7 +7,7 @@ This project enables an interactive visualization of heart rate data transmitted
 [Click here](https://cables.gl/p/pMsdcr) to view the material on Cables.gl.
 
 ## Structure
-![basicStructure](https://github.com/user-attachments/assets/a5d8de40-6846-45ef-be2e-83cc9867ac42)
+![basicStructure](./images/basicStructure.jpg)
 
 ## Dependencies
 
@@ -24,7 +24,7 @@ node -v
 npm install ws
 ```
 3. **LiveServer plugin for Visual Studio Code**
-![image](https://github.com/user-attachments/assets/f088d187-c168-4daa-af8a-630b8559fa93)
+![liveServer](./images/liveServer.png)
 
 This plugin will help you launching the p5.js applcations in your browser.
 
