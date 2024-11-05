@@ -4,6 +4,8 @@
 
 This project enables an interactive visualization of heart rate data transmitted from a smartwatch (specifically, the Polar Unite) via Bluetooth. A p5.js application first connects the smartwatch to your device, capturing the heart rate values. These values are then sent to Cables.gl through a WebSocket connection. Using a second p5.js application and another WebSocket connection, the user can select the visualization mode for displaying the heart rate data on Cables.gl.
 
+[Application demo](https://youtu.be/ytdGYKzxM7k)
+
 [Click here](https://cables.gl/p/pMsdcr) to view the material on Cables.gl.
 
 ## Structure
